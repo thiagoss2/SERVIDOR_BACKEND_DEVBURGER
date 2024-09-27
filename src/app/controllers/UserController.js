@@ -1,5 +1,5 @@
-import User from './app/models/User'
-import { v4 } from 'uuid'
+import User from '../models/User';
+import { v4 } from 'uuid';
 
 class UserController {
     async store(req, res) {
